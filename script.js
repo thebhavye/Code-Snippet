@@ -9,9 +9,3 @@ function enterApp() {
   }, 300);
 }
 
-function showForm() {
-  document.getElementById('main').innerHTML = `
-    <h2>New Snippet</h2>
-    <p>Form coming next...</p>
-  `;
-}
