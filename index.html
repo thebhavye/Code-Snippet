@@ -22,9 +22,21 @@
 <div id="app">
 
   <aside class="sidebar">
-    <h2>SnippetVault</h2>
-    <button onclick="showForm()">+ New Snippet</button>
-  </aside>
+  <h2>SnippetVault</h2>
+
+  <input 
+    type="text" 
+    id="searchInput" 
+    placeholder="Search..." 
+    oninput="renderSidebar()"
+  >
+
+  <div id="langPills"></div>
+
+  <button onclick="showForm()">+ New Snippet</button>
+
+  <div id="snippetList"></div>
+</aside>
 
   <main id="main">
     <h2>Welcome</h2>
