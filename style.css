@@ -19,3 +19,43 @@ button {
   border: none;
   cursor: pointer;
 }
+body {
+  font-family: 'Epilogue', sans-serif;
+  background: #0a0a0a;
+  color: #e8e8e8;
+  margin: 0;
+}
+
+#landing {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-content {
+  text-align: center;
+  max-width: 500px;
+}
+
+.landing-headline {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.landing-headline span {
+  color: orange;
+}
+
+.landing-sub {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
