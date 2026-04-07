@@ -59,3 +59,22 @@ button {
   border: none;
   cursor: pointer;
 }
+#app {
+  display: none;
+  height: 100vh;
+}
+
+#app.visible {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background: #111;
+  padding: 20px;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
