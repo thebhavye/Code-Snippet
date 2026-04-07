@@ -1,31 +1,11 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #0a0a0a;
-  color: white;
-  text-align: center;
-  margin: 0;
-}
-
-#landing {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-button {
-  padding: 10px 20px;
-  background: orange;
-  border: none;
-  cursor: pointer;
-}
-body {
   font-family: 'Epilogue', sans-serif;
   background: #0a0a0a;
   color: #e8e8e8;
   margin: 0;
 }
 
+/* LANDING */
 #landing {
   height: 100vh;
   display: flex;
@@ -47,11 +27,6 @@ body {
   color: orange;
 }
 
-.landing-sub {
-  margin-top: 10px;
-  color: #aaa;
-}
-
 button {
   margin-top: 20px;
   padding: 12px 24px;
@@ -59,6 +34,8 @@ button {
   border: none;
   cursor: pointer;
 }
+
+/* APP */
 #app {
   display: none;
   height: 100vh;
