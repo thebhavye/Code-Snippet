@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+#landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
