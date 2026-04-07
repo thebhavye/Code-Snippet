@@ -55,3 +55,11 @@ main {
   flex: 1;
   padding: 20px;
 }
+textarea {
+  width: 80%;
+  height: 150px;
+  background: #111;
+  color: white;
+  border: 1px solid #333;
+  padding: 10px;
+}
